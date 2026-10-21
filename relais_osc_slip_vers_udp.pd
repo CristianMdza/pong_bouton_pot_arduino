@@ -1,4 +1,4 @@
-#N canvas 257 154 862 677 12;
+#N canvas 1224 129 862 677 12;
 #X obj 89 152 comport;
 #X msg 88 78 devices;
 #X obj 89 339 pdchoco/slip_parse;
@@ -14,7 +14,7 @@
 #X obj 147 210 pdchoco/console_log;
 #A saved 0;
 #X obj 143 383 pdchoco/console_log;
-#A saved 0;
+#A saved 1;
 #X text 97 269 ERECEVOIR DU MICROCONTRÔLEUR;
 #X text 225 339 DÉPAQUETER LE SLIP;
 #X text 186 594 ENVOYER AU LOGICIEL PAR UDP (EX. UNITY OU TOUCHDESIGNER);
