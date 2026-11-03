@@ -1,4 +1,4 @@
-#N canvas 1224 129 862 677 12;
+#N canvas 465 116 862 677 12;
 #X obj 89 152 comport;
 #X msg 88 78 devices;
 #X obj 89 339 pdchoco/slip_parse;
@@ -23,8 +23,8 @@
 #A saved but0 i 1;
 #X text 421 279 TESTER LA RÉCEPTION DE MESSAGES OSC;
 #X text 424 298 Note : Dans Pd \, le / dans les adresses des messages OSC est retiré.;
-#X msg 213 79 close \, open 10 \, baud 115200 \, dtr 1;
 #X msg 358 527 disconnect \, connect 127.0.0.1 8001;
+#X msg 213 79 close \, open 3 \, baud 115200 \, dtr 1;
 #X connect 0 0 2 0;
 #X connect 0 0 6 0;
 #X connect 0 0 12 0;
@@ -33,8 +33,8 @@
 #X connect 2 0 13 0;
 #X connect 4 0 3 0;
 #X connect 5 0 0 0;
-#X connect 10 0 21 0;
-#X connect 11 0 22 0;
+#X connect 10 0 22 0;
+#X connect 11 0 21 0;
 #X connect 18 0 3 0;
-#X connect 21 0 0 0;
-#X connect 22 0 3 0;
+#X connect 21 0 3 0;
+#X connect 22 0 0 0;
